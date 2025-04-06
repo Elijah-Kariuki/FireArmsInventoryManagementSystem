@@ -41,7 +41,7 @@ ScaffoldingReadMe.txt
 # ====================================
 # 2. App Settings / Environment Files
 # ====================================
-# (You might store sensitive files with User Secrets instead.)
+# Sensitive configuration files (use User Secrets instead)
 appsettings.json
 appsettings.Development.json
 appsettings.Production.json
@@ -54,11 +54,6 @@ secrets.json
 .env.development
 .env.test
 .env.production
-
-# If you have a named folder (e.g., "MyAspNetCoreApp"), ignore inside it as well:
-MyAspNetCoreApp/appsettings*.json
-MyAspNetCoreApp/MyAspNetCoreAppsecrets.json
-MyAspNetCoreApp/.env*
 
 # Aspire & Config
 aspire/
@@ -73,6 +68,9 @@ aspire-dev-cert.pfx
 logs/
 *.log
 *.tlog
+TestResults/
+.coverage/
+*.coverage
 
 # ====================================
 # 4. Swagger / OpenAPI (NSwag)
@@ -80,6 +78,7 @@ logs/
 swagger/
 swagger.json
 nswag/
+swagger-ui/
 nswag.json
 
 # ====================================
@@ -91,9 +90,10 @@ __pycache__/
 venv/
 ENV/
 env/
-*.env  # If you keep a .env for Python-related secrets
+*.env  # If you keep a .env for Python-related secrets
 instance/
 db.sqlite3
+migrations/
 
 # ====================================
 # 6. Angular (or Angular.js)
@@ -110,15 +110,20 @@ out-tsc/
 src/environments/environment*.ts
 
 # ====================================
-# 7. Flutter
+# 7. Docker (if used)
 # ====================================
-# Flutter build output
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+
+# ====================================
+# 8. Flutter
+# ====================================
 build/
 *.apk
 *.ipa
 *.app
-
-# Flutter dependency management
 .dart_tool/
 .pub-cache/
 pubspec.lock
@@ -145,12 +150,13 @@ ios/Pods/
 
 # VS Code related files
 .vscode/
+.vscode/launch.json
 
 # macOS files
 .DS_Store
 
 # ====================================
-# 8. General OS/Editor Junk
+# 9. General OS/Editor Junk
 # ====================================
 Thumbs.db
 ehthumbs.db
@@ -182,34 +188,11 @@ $RECYCLE.BIN/
 *.userosscache
 *.sln.docstates
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
 # Application Insights session logs
 *.aiproj
 
-# Project-specific files
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
 # Auto-generated UI files
-Generated\
+Generated/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
-
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Launch settings
