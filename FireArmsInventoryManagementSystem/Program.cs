@@ -1,6 +1,18 @@
+using FireArmsInventoryManagementSystem.Mapping;
+using FireArmsInventoryManagementSystem.Mapping;
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using FireArmsInventoryManagementSystem.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Configuration.AddUserSecrets<Program>(true);
+
+
+builder.Services.AddDbContext<FirearmsInventoryDB>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAutoMapper(typeof(Form4473MappingProfile));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
