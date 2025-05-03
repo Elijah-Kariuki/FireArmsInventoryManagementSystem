@@ -7,6 +7,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Configuration.AddUserSecrets<Program>(true);
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+    .AddUserSecrets<Program>(optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Example with EF Core
+builder.Services.AddDbContext<FirearmsInventoryDB>(options =>
+    options.UseSqlServer(connectionString));
 
 
 builder.Services.AddDbContext<FirearmsInventoryDB>(options =>
