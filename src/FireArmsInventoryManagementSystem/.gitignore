@@ -1,3 +1,8 @@
+# Force-ignore all bin/obj folders everywhere
+**/bin/
+**/obj/
+
+
 # ====================================
 # 1. C# / ASP.NET Core / .NET
 # ====================================

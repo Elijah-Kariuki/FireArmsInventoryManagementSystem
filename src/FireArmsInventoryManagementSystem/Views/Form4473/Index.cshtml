@@ -1,0 +1,545 @@
+﻿@model IEnumerable<FireArmsInventoryManagementSystem.Models.Form4473Record>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TransferorsTransactionNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalNumberOfFirearms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPawnRedemption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PawnRedemptionLineNumbers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPrivatePartyTransfer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeMiddleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeStreetAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeCountyParishBorough)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeZipCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResideInCityLimits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereePlaceOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeightFeet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeightInches)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SSN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpinOrAmdId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsHispanicOrLatino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceAmericanIndianOrAlaskaNative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceAsian)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceBlackOrAfricanAmerican)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceNativeHawaiianOrPacificIslander)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceWhite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryOfCitizenship)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlienNumberOrAdmissionNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActualTransfereeBuyer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WillDisposeToFelony)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnderIndictment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EverConvictedFelony)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FugitiveFromJustice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnlawfulUserOfControlledSubstance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdjudicatedMentallyDefective)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DishonorableDischarge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubjectToRestrainingOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConvictedMisdemeanorDomesticViolence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RenouncedUSCitizenship)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlienIllegally)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonImmigrantVisa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonImmigrantVisaException)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WillDisposeToProhibitedPerson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeSignature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CertificationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryHandgun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryLongGun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GunShowOrEventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GunShowOrEventCityStateZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentificationType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentificationNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentificationExpDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplementalGovtDoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PcsBaseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PcsEffectiveDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PcsOrderNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonImmigrantExceptionDocumentation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsCheckInitiatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsOrStateTransactionNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InitialNicsResponse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsDelayedEligibleDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubsequentNicsResponses)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostTransferNicsResponse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsProceedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsDeniedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsCancelledDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NicsOverturnedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsNfaBackgroundCheckAlready)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsStatePermitExemption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatePermitType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatePermitIssueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatePermitExpirationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatePermitNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeRecertSignature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransfereeRecertDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LicenseeUseRemarks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerTradeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerStreetAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerCityStateZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerFFLNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransferorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransferorSignature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransferDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransferorsTransactionNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalNumberOfFirearms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPawnRedemption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PawnRedemptionLineNumbers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPrivatePartyTransfer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeMiddleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeStreetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeCountyParishBorough)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeZipCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResideInCityLimits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereePlaceOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeightFeet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeightInches)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SSN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpinOrAmdId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsHispanicOrLatino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceAmericanIndianOrAlaskaNative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceAsian)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceBlackOrAfricanAmerican)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceNativeHawaiianOrPacificIslander)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceWhite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryOfCitizenship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlienNumberOrAdmissionNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActualTransfereeBuyer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WillDisposeToFelony)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnderIndictment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EverConvictedFelony)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FugitiveFromJustice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnlawfulUserOfControlledSubstance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdjudicatedMentallyDefective)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DishonorableDischarge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubjectToRestrainingOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConvictedMisdemeanorDomesticViolence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RenouncedUSCitizenship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlienIllegally)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonImmigrantVisa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonImmigrantVisaException)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WillDisposeToProhibitedPerson)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeSignature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CertificationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryHandgun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryLongGun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GunShowOrEventName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GunShowOrEventCityStateZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentificationType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentificationNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentificationExpDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupplementalGovtDoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PcsBaseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PcsEffectiveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PcsOrderNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonImmigrantExceptionDocumentation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsCheckInitiatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsOrStateTransactionNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitialNicsResponse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsDelayedEligibleDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubsequentNicsResponses)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostTransferNicsResponse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsProceedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsDeniedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsCancelledDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NicsOverturnedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsNfaBackgroundCheckAlready)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsStatePermitExemption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatePermitType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatePermitIssueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatePermitExpirationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatePermitNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeRecertSignature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransfereeRecertDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LicenseeUseRemarks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerTradeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerStreetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerCityStateZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerFFLNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransferorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransferorSignature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransferDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

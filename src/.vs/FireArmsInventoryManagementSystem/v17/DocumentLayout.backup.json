@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\c-sharp-back-end\\src\\firearmsinventorymanagementsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\c-sharp-back-end\\src\\firearmsinventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\c-sharp-back-end\\src\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2FBFB680-A589-2D40-A796-98E08AEE5E05}|FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\README.md",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\README.md",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\README.md",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-05T13:37:09.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\Program.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:37:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FireArmsInventoryManagementSystem.http",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.http",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.http",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\C-Sharp-Back-End\\src\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.http",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-05T13:37:09.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

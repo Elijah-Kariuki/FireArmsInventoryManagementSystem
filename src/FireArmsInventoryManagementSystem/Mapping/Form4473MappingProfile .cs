@@ -8,15 +8,18 @@ namespace FireArmsInventoryManagementSystem.Mapping
     {
         public Form4473MappingProfile()
         {
-            // Map entity to DTO and reverse
-            CreateMap<Form4473Record, Form4473RecordDto>().ReverseMap();
+            CreateMap<Form4473Record, Form4473RecordDto>()
+                .ReverseMap()
+                // avoid cycles when you later add other child navigations:
+                .PreserveReferences();
 
-            CreateMap<Form4473FirearmLine, Form4473FirearmLineDto>().ReverseMap();
+            CreateMap<Form4473FirearmLine, Form4473FirearmLineDto>()
+                .ReverseMap();
 
-           
-
+            // Enum → string (and back, if you need the reverse)
             CreateMap<NicsResponseType, string>()
                 .ConvertUsing(src => src.ToString());
         }
     }
+
 }

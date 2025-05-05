@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 
 namespace FireArmsInventoryManagementSystem.Models
 {
@@ -681,5 +682,8 @@ namespace FireArmsInventoryManagementSystem.Models
                    // Using .Contains("other") is a fallback and might be too broad or narrow depending on input.
                    typeLower.Contains("other");
         }
+
+        
+
     }
 }

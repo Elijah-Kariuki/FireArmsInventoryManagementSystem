@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\models\\form4473record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\models\\form4473record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\controllers\\form4473controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\controllers\\form4473controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\data\\firearmsinventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\data\\firearmsinventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\mapping\\form4473mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\mapping\\form4473mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\models\\form4473firearmline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\models\\form4473firearmline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\models\\dto\\form4473firearmlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\models\\dto\\form4473firearmlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|c:\\users\\elija\\source\\repos\\firearmsinventorymanagementsystem\\firearmsinventorymanagementsystem\\models\\dto\\form4473recorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BD667D-46A9-4937-853C-538128E6FC1F}|FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem.csproj|solutionrelative:firearmsinventorymanagementsystem\\models\\dto\\form4473recorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FirearmsInventoryDBModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Migrations\\FirearmsInventoryDBModelSnapshot.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAiwJABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:59:20.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\appsettings.json",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T12:42:31.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4473Controller.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Controllers\\Form4473Controller.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Controllers\\Form4473Controller.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Controllers\\Form4473Controller.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Controllers\\Form4473Controller.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv54AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:56:05.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Program.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:37:27.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form4473MappingProfile .cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Mapping\\Form4473MappingProfile .cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Mapping\\Form4473MappingProfile .cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Mapping\\Form4473MappingProfile .cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Mapping\\Form4473MappingProfile .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:08:15.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form4473FirearmLineDto.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473FirearmLineDto.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473FirearmLineDto.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473FirearmLineDto.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473FirearmLineDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:37:24.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4473Record.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Form4473Record.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Models\\Form4473Record.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Form4473Record.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Models\\Form4473Record.cs",
+              "ViewState": "AgIAAIsCAAAAAAAAAAAUwLECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:37:16.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form4473FirearmLine.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Form4473FirearmLine.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Models\\Form4473FirearmLine.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Form4473FirearmLine.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Models\\Form4473FirearmLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:37:13.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirearmsInventoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Data\\FirearmsInventoryDB.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Data\\FirearmsInventoryDB.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Data\\FirearmsInventoryDB.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Data\\FirearmsInventoryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:21:57.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form4473RecordDto.cs",
+              "DocumentMoniker": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473RecordDto.cs",
+              "RelativeDocumentMoniker": "FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473RecordDto.cs",
+              "ToolTip": "C:\\Users\\elija\\source\\repos\\FireArmsInventoryManagementSystem\\FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473RecordDto.cs",
+              "RelativeToolTip": "FireArmsInventoryManagementSystem\\Models\\Dto\\Form4473RecordDto.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:37:26.665Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
