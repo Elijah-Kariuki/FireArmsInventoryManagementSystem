@@ -1,0 +1,203 @@
+# Force-ignore all bin/obj folders everywhere
+**/bin/
+**/obj/
+
+
+# ====================================
+# 1. C# / ASP.NET Core / .NET
+# ====================================
+# Build / Dependency Files
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.csproj.user
+*.dbmdl
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# User/IDE Files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+
+# DotNet specific
+.NETCoreApp,Version=v*
+.nuget/
+*.nuspec
+*.psmdcp
+.template.config/
+project.fragment.lock.json
+artifacts/
+
+# Scaffolding
+ScaffoldingReadMe.txt
+
+# ====================================
+# 2. App Settings / Environment Files
+# ====================================
+# Sensitive configuration files (use User Secrets instead)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Test.json
+appsettings.Local.json
+secrets.json
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Aspire & Config
+aspire/
+aspire.json
+aspire.local.json
+aspire-secrets/
+aspire-dev-cert.pfx
+
+# ====================================
+# 3. Logs / Debugging
+# ====================================
+logs/
+*.log
+*.tlog
+TestResults/
+.coverage/
+*.coverage
+
+# ====================================
+# 4. Swagger / OpenAPI (NSwag)
+# ====================================
+swagger/
+swagger.json
+nswag/
+swagger-ui/
+nswag.json
+
+# ====================================
+# 5. Python
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+env/
+*.env  # If you keep a .env for Python-related secrets
+instance/
+db.sqlite3
+migrations/
+
+# ====================================
+# 6. Angular (or Angular.js)
+# ====================================
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+tmp/
+out-tsc/
+*.tsbuildinfo
+
+# Environment files (if any)
+src/environments/environment*.ts
+
+# ====================================
+# 7. Docker (if used)
+# ====================================
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+
+# ====================================
+# 8. Flutter
+# ====================================
+build/
+*.apk
+*.ipa
+*.app
+.dart_tool/
+.pub-cache/
+pubspec.lock
+
+# Android Studio related files
+android/.gradle
+android/.idea
+android/app/local.properties
+android/app/key.jks
+android/build/
+ios/Flutter/App.framework/
+ios/Flutter/flutter_assets/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Podfile.lock
+ios/.symlinks/
+ios/ Carthage/Build/
+ios/Pods/
+
+# IntelliJ related files
+*.iml
+.idea/
+
+# VS Code related files
+.vscode/
+.vscode/launch.json
+
+# macOS files
+.DS_Store
+
+# ====================================
+# 9. General OS/Editor Junk
+# ====================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Rider & Resharper
+.idea/
+*.DotSettings
+
+# Local History (VSCode plugin or JetBrains plugin)
+.history/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Application Insights session logs
+*.aiproj
+
+# Auto-generated UI files
+Generated/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
